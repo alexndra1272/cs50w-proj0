@@ -6,13 +6,13 @@
         <link rel="stylesheet" href="../assets/css/style.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />       
         <link rel="icon" href="../assets/img/favicon.png" type="image/png">
-        <title>Search</title>
+        <title>Google Images</title>
     </head>
     <body>
         <nav>
             <ul class="menu">
                 <li>
-                    <a href="/">Google</a>
+                    <a href="../../index.html">Google</a>
                 </li>
                 <li>
                     <a href="#">Advanced Search</a>
@@ -38,9 +38,12 @@
                     <input type="text" name="q" class="input-search" autocomplete="off" />
                     <img src="../assets/img/micr.png" alt="Search by voice" class="iconSearch">
                     <img src="../assets/img/searchImg.png" alt="Search by image" class="iconSearch">
-                    <span class="material-symbols-outlined lupa">
-                        Search
-                    </span>
+                    <button type="submit" class="lupa">
+                        <span class="material-symbols-outlined">
+                            Search
+                        </span>
+                    </button>
+                    <input type="hidden" name="tbm" value="isch">
                 </div>
             </form>
         </main>
