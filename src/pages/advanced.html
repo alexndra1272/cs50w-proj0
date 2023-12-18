@@ -32,20 +32,26 @@
             Advanced Search
         </h2>
         <main class="container">
-            <p>Find pages with...</p>
-            <form action="https://google.com/search" method="get">
-                <label for="all">all these words:</label>
-                <input type="text" name="as_q" id="all">
-                <br>
-                <label for="exact">this exact word or phrase:</label>
-                <input type="text" name="as_epq" id="exact">
-                <br>
-                <label for="any">any of these words:</label>
-                <input type="text" name="as_oq" id="any">
-                <br>
-                <label for="none">none of these words:</label>
-                <input type="text" name="as_eq" id="none">
-                <div>
+            <form action="https://google.com/search" method="get" class="advForm">
+                <p>Find pages with...</p>
+                <div class="inpAdv">
+                    <label for="all">all these words:</label>
+                    <input type="text" name="as_q" id="all">
+                </div>
+                <div class="inpAdv">
+                    <label for="exact">this exact word or phrase:</label>
+                    <input type="text" name="as_epq" id="exact">
+                </div>
+                <div class="inpAdv">
+                    <label for="any">any of these words:</label>
+                    <input type="text" name="as_oq" id="any">
+                </div>
+                <div class="inpAdv">
+                    <label for="none">none of these words:</label>
+                    <input type="text" name="as_eq" id="none">
+                </div>
+
+                <div class="buttonCont">
                     <input type="submit" value="Advanced Search">
                 </div>
             </form>
